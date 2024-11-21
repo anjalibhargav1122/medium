@@ -1,0 +1,232 @@
+.fsz {
+    font-size: 13vh;
+}
+
+.ht {
+    height: 83vh;
+}
+
+
+
+.dis{
+    font-size: 5rem;
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.of{
+    font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 1.4rem;
+    width: 58%;
+    line-height: 33px;
+}
+
+.wu{
+    width: 55%;
+    line-height: 51px;
+}
+
+.bg-mk{
+    background-color: rgba(255, 255, 255, 0.128);
+    color: white;
+}
+
+.fp{
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.hob:hover{
+background-color: white !important;
+color: black !important;
+}
+
+.ffm{
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.pff{
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.hico{
+    height: 83vh !important;
+}
+
+.hico::-webkit-scrollbar {
+    display: none;
+  }
+
+ .htimg{
+    height: 72px;
+ }
+
+ .fzs{
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.8rem;
+ }
+
+ .clr1{
+    background-color: rgba(208, 208, 208, 0.4);
+ }
+
+ .clr2{
+    background-color: rgba(254, 246, 239, 0.4);
+ }
+
+ .clr3{
+    background-color: rgba(238, 148, 229, 0.4);
+ }
+
+ .clr4{
+    background-color: rgba(182, 201, 217, 0.4);
+ }
+
+ .clr5{
+    background-color: rgba(178, 214, 141, 0.4);
+ }
+
+ .clr6{
+    background-color: rgba(250, 249, 244, 0.4);
+ }
+
+ .clr7{
+    background-color: rgba(253, 210, 119, 0.4);
+ }
+
+ .clr8{
+    background-color: rgba(204, 236, 230, 0.4);
+ }
+
+.imgbg{
+        object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(to top, rgba(254, 246, 239, 0.829) 50%, transparent 50%), url('../assets//boxes.png');
+}
+
+.imgbg1{
+        object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+    background: linear-gradient(to top,  rgba(253, 211, 119, 0.646) 50%, transparent 50%), url('../assets//cartoon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgbg2{
+        object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+    background: linear-gradient(to top, rgba(204, 236, 230, 0.578) 50%, transparent 50%), url('../assets//class.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgbg3{
+        object-fit: cover;
+    transition: opacity 0.5s ease-in-out;  background: linear-gradient(to top, rgba(238, 148, 229, 0.58) 50%, transparent 50%), url('../assets//colorfull.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgbg4{
+        object-fit: cover;
+    transition: opacity 0.5s ease-in-out;  background: linear-gradient(to top, rgba(250, 249, 244, 0.546) 50%, transparent 50%), url('../assets//dark.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgbg5{
+        object-fit: cover;
+    transition: opacity 0.5s ease-in-out;  background: linear-gradient(to top, rgba(182, 201, 217, 0.507) 50%, transparent 50%), url('../assets//panting.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgbg6{
+        object-fit: cover;
+    transition: opacity 0.5s ease-in-out;  background: linear-gradient(to top, rgba(177, 214, 141, 0.523) 50%, transparent 50%), url('../assets//park.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgbg7{
+        object-fit: cover;
+    transition: opacity 0.5s ease-in-out;  background: linear-gradient(to top, rgba(208, 208, 208, 0.525) 50%, transparent 50%), url('../assets//torch.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.widbn{
+    width: 37%;
+}
+
+
+
+@media (max-width: 780px) {
+
+    .bgclr {
+        background-color: green;
+    }
+
+    .fsz {
+        font-size: 9vh;
+    }
+
+    .pdb {
+        margin-bottom: 7rem !important;
+        padding-left: 0px !important;
+    }
+
+    .dis{
+        font-size: 3rem !important;
+        padding-top: 0px !important;
+    }
+
+    .of{
+        font-size: 1.2rem;
+        width: 95%;
+        
+    }
+
+    .wu{
+        width: 95%;
+    }
+
+    .fp{
+        font-size: 1.8rem !important;
+    }
+
+    .htimg{
+        width: 28% !important;
+        margin-bottom: 20px !important;
+    }
+
+    .pff{
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .hico{
+        padding-left: 3rem !important;
+        padding-right: 1.5rem !important;
+        overflow: visible !important;
+        height:  auto !important;
+    }
+
+    .hitcol{
+        height: 550px !important;
+        border-bottom: 2px solid black !important;
+        border-top: 2px solid black !important;
+    }
+
+    .widbn{
+        width: 53% !important;
+    }
+}
